@@ -1,0 +1,26 @@
+.TodoItem {
+    text-align: left;
+    border-bottom: 1px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.TodoItem p {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 5px;
+    width: 100%;
+}
+.TodoItem-Completed{
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+.TodoItem img {
+    width: 32px;
+    height: 32px;
+    padding: 16px;
+}
+.delete-icon {
+    opacity: 1;
+
+}
