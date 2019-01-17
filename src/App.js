@@ -106,7 +106,7 @@ class App extends Component {
           <input type="text" placeholder="Entering Something!" onKeyDown={this.onEnterDown.bind(this)}/>
         </div>
         {
-          todoList.length && todoList.map((item , index)=>
+          todoList.length > 0 && todoList.map((item , index)=>
             <TodoItem key={index} item={item}
               onClick={this.onTodoItemClick(item)}
               onCloseClick={this.onCloseItemClick(item)}
